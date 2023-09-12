@@ -12,9 +12,10 @@
 		<input type="Text" placeholder="Name" ID="name" required>
 		<lable for ="email"> Email</lable>
 		<input type="Email" placeholder="Email" ID="email" required>
-		<lable for ="gender_m gender_f"> Gender</lable>
-		<input type="Radio" placeholder="-" ID="gender_m gender_f" name="Gender"required>male
-		<input type="Radio" placeholder="-" ID="gender_m gender_f" name="Gender"required>female
+		<lable for ="gender_m"> Gender</lable>
+		<input type="Radio" placeholder="-" ID="gender_m" name="Gender"required>male
+		<lable for ="gender_f"> Gender</lable>
+		<input type="Radio" placeholder="-" ID="gender_f" name="Gender"required>female
 		<lable for ="cars"> Car Brands</lable>
 		<input type="Select" placeholder="--Please choose an option--" ID="cars" required>
 		<lable for ="age"> Age</lable>
@@ -28,6 +29,19 @@
 		<lable for ="tos"> I agree to the TOS</lable>
 		<input type="Checkbox" placeholder="-" ID="tos" required>
 		<button type="Submit">Submit</button>
+		<ol>
+            <li>Audi</li>
+            <li>Benz</li>
+            <li>BMW</li>
+            <li>Tesla</li>
+        </ol>
+        <label for="cars">Car Brands</label>
+        <select id="cars" name="Car Brands">
+            <option value="Audi">1</option>
+            <option value="Benz">2</option>
+            <option value="BMW">3</option>
+            <option value="Tesla">4</option>
+        </select>
 	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
